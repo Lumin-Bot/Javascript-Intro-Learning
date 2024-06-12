@@ -1,15 +1,5 @@
-let fruit = ["🍎", "🍊", "🍎", "🍎", "🍊"]
-let appleShelf = document.getElementById("apple-shelf")
-let orangeShelf = document.getElementById("orange-shelf")
+const people = "James"
+const sender = "Jacky"
+const email = `Hey ${people}! How is it going? Cheers ${sender}!`
 
-function sortShelf(){
-    for(let i = 0; i < fruit.length; i++){
-        if(fruit[i] === "🍎"){
-            appleShelf.textContent += fruit[i]
-        } else{
-            orangeShelf.textContent += fruit[i]
-        }
-    }
-}
-
-sortShelf()
+console.log(email)
